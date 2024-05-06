@@ -1,6 +1,5 @@
 package br.com.fiap.biblioteca.dto.cliente;
 
-import br.com.fiap.biblioteca.dto.emprestimo.DetalhesEmprestimoDTO;
 import br.com.fiap.biblioteca.dto.emprestimo.ListagemEmprestimoDTO;
 import br.com.fiap.biblioteca.model.Cliente;
 import java.util.ArrayList;

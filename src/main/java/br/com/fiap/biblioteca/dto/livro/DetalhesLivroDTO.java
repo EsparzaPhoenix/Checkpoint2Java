@@ -1,7 +1,6 @@
 package br.com.fiap.biblioteca.dto.livro;
 
 import br.com.fiap.biblioteca.dto.autor.ListagemAutorDTO;
-import br.com.fiap.biblioteca.dto.editora.DetalhesEditoraDTO;
 import br.com.fiap.biblioteca.dto.editora.ListagemEditoraDTO;
 import br.com.fiap.biblioteca.model.enums.Genero;
 import br.com.fiap.biblioteca.model.Livro;

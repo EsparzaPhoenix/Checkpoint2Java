@@ -4,12 +4,9 @@ import br.com.fiap.biblioteca.dto.cliente.DetalhesClienteDTO;
 import br.com.fiap.biblioteca.model.Emprestimo;
 import br.com.fiap.biblioteca.model.enums.StatusEmprestimo;
 import br.com.fiap.biblioteca.dto.livro.ListagemLivroDTO;
-import br.com.fiap.biblioteca.dto.cliente.DetalhesClienteDTO;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import org.springframework.cglib.core.Local;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 

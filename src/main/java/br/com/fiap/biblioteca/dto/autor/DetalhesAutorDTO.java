@@ -1,12 +1,9 @@
 package br.com.fiap.biblioteca.dto.autor;
 
 import br.com.fiap.biblioteca.model.Autor;
-import br.com.fiap.biblioteca.dto.editora.DetalhesEditoraDTO;
-import br.com.fiap.biblioteca.dto.livro.DetalhesLivroDTO;
 import br.com.fiap.biblioteca.dto.livro.ListagemLivroDTO;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
