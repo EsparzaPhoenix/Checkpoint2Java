@@ -1,6 +1,5 @@
 package br.com.fiap.biblioteca.model;
 
-import br.com.fiap.biblioteca.model.Livro;
 import br.com.fiap.biblioteca.dto.autor.CadastrarAutorDTO;
 import br.com.fiap.biblioteca.dto.autor.AtualizarAutorDTO;
 import jakarta.persistence.*;

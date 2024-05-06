@@ -1,9 +1,6 @@
 package br.com.fiap.biblioteca.model;
 
 import br.com.fiap.biblioteca.dto.livro.*;
-import br.com.fiap.biblioteca.model.Autor;
-import br.com.fiap.biblioteca.model.Editora;
-import br.com.fiap.biblioteca.model.Emprestimo;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

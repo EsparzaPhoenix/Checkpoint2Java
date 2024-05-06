@@ -2,7 +2,6 @@ package br.com.fiap.biblioteca.model;
 
 import br.com.fiap.biblioteca.dto.editora.AtualizarEditoraDTO;
 import br.com.fiap.biblioteca.dto.editora.CadastrarEditoraDTO;
-import br.com.fiap.biblioteca.model.Livro;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

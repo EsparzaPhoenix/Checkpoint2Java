@@ -1,5 +1,7 @@
 package br.com.fiap.biblioteca.model;
 
+import br.com.fiap.biblioteca.dto.emprestimo.AtualizarEmprestimoDTO;
+import br.com.fiap.biblioteca.dto.emprestimo.CadastrarEmprestimoDTO;
 import br.com.fiap.biblioteca.model.enums.StatusEmprestimo;
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -9,6 +11,7 @@ import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 @Getter
@@ -46,6 +49,15 @@ public class Emprestimo {
     @JoinColumn(name = "cd_cliente")
     private Cliente cliente;
 
+    public Emprestimo(CadastrarEmprestimoDTO dto){
+        this.dataDevolucao = dto.dataDevolucao();
+        this.livros = new ArrayList<>();
+    }
 
+    public void atualizarEmprestimo(AtualizarEmprestimoDTO dto){
+        if(dto.dataDevolucao() != null){
+            this.dataDevolucao = dto.dataDevolucao();
+        }
+    }
 
 }
